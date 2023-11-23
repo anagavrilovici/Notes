@@ -11,6 +11,11 @@
 		DF565EDF2B0529EE00AD8322 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF565EDE2B0529EE00AD8322 /* ContentView.swift */; };
 		DF565EE12B0529EE00AD8322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF565EE02B0529EE00AD8322 /* Assets.xcassets */; };
 		DF565EE42B0529EE00AD8322 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF565EE32B0529EE00AD8322 /* Preview Assets.xcassets */; };
+		DF565EF22B07BF8100AD8322 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF565EF12B07BF8100AD8322 /* Note.swift */; };
+		DF565EF42B07C09F00AD8322 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF565EF32B07C09F00AD8322 /* Tag.swift */; };
+		DF565EF72B0A5DB300AD8322 /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF565EF62B0A5DB200AD8322 /* NoteListView.swift */; };
+		DF565EF92B0A987700AD8322 /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF565EF82B0A987700AD8322 /* TagListView.swift */; };
+		DF748F042B0E40460098E5D7 /* Filtres.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF748F032B0E40460098E5D7 /* Filtres.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		DF565EDE2B0529EE00AD8322 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF565EE02B0529EE00AD8322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF565EE32B0529EE00AD8322 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF565EF12B07BF8100AD8322 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		DF565EF32B07C09F00AD8322 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		DF565EF62B0A5DB200AD8322 /* NoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListView.swift; sourceTree = "<group>"; };
+		DF565EF82B0A987700AD8322 /* TagListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
+		DF748F032B0E40460098E5D7 /* Filtres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filtres.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				DF565EDC2B0529EE00AD8322 /* NotesApp.swift */,
+				DF565EF52B0A5D8700AD8322 /* View */,
 				DF565EDE2B0529EE00AD8322 /* ContentView.swift */,
 				DF565EE02B0529EE00AD8322 /* Assets.xcassets */,
 				DF565EE22B0529EE00AD8322 /* Preview Content */,
@@ -65,6 +76,26 @@
 				DF565EE32B0529EE00AD8322 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF565EF02B07BF5A00AD8322 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF565EF12B07BF8100AD8322 /* Note.swift */,
+				DF565EF32B07C09F00AD8322 /* Tag.swift */,
+				DF748F032B0E40460098E5D7 /* Filtres.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF565EF52B0A5D8700AD8322 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF565EF62B0A5DB200AD8322 /* NoteListView.swift */,
+				DF565EF82B0A987700AD8322 /* TagListView.swift */,
+				DF565EF02B07BF5A00AD8322 /* Models */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF565EF42B07C09F00AD8322 /* Tag.swift in Sources */,
+				DF565EF92B0A987700AD8322 /* TagListView.swift in Sources */,
 				DF565EDF2B0529EE00AD8322 /* ContentView.swift in Sources */,
+				DF565EF72B0A5DB300AD8322 /* NoteListView.swift in Sources */,
+				DF748F042B0E40460098E5D7 /* Filtres.swift in Sources */,
 				DF565EDD2B0529EE00AD8322 /* NotesApp.swift in Sources */,
+				DF565EF22B07BF8100AD8322 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
